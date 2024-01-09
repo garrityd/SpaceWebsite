@@ -1,0 +1,153 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+
+/* index.html CSS */
+h1, h2 {
+    text-align: center;
+}
+h1 {
+    font-size: 70px;
+    font-family: 'Eagle Lake', serif;
+    color: white;
+}
+h2 {
+    font-size: 60px;
+    color: white;
+}
+
+body {
+    background-image: url('images/milky-way.jpg');
+}
+
+/* Logo */
+
+.logo {
+  position: fixed;
+}
+
+/* Navigation */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #474973;
+  }
+  
+  li {
+    float: left;
+    text-align: center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #161B33;
+  }
+
+  li a:active {
+    background-color: aliceblue;
+    color: #161B33;
+  }
+
+  a.header {
+    text-decoration: none;
+  }
+
+  /* Paragraphs */
+  .paragraphs {
+    background-color: #A69CAC;
+    padding: 30px;
+  }
+
+  p.paragraphs {
+    background-color: #CCCFECFF;
+    padding: 5px;
+    font-size: 17px;
+  }
+
+  /* Image */
+  .personal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Footer */
+  .footer {
+    background-color: rgb(210, 210, 210);
+    padding: 20px;
+  }
+
+/* early.html CSS */
+
+h3 {
+  text-align: center;
+  font-size: 35px;
+  color: #0D0C1D;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sputnik {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.mission2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* height.html CSS */
+
+.mission4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission5img {
+  float: left;
+}
+
+.mission6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* today.html CSS */
+
+.mission7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
